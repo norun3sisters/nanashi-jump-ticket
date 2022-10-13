@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nanashi-jump-ticket/static/css/main.073c9b0a.css",
+    "main.js": "/nanashi-jump-ticket/static/js/main.c10d72d6.js",
+    "static/js/787.2c0d3423.chunk.js": "/nanashi-jump-ticket/static/js/787.2c0d3423.chunk.js",
+    "static/media/logo.svg": "/nanashi-jump-ticket/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/nanashi-jump-ticket/index.html",
+    "main.073c9b0a.css.map": "/nanashi-jump-ticket/static/css/main.073c9b0a.css.map",
+    "main.c10d72d6.js.map": "/nanashi-jump-ticket/static/js/main.c10d72d6.js.map",
+    "787.2c0d3423.chunk.js.map": "/nanashi-jump-ticket/static/js/787.2c0d3423.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c10d72d6.js"
+  ]
+}
