@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nanashi-jump-ticket/static/css/main.a8960303.css",
-    "main.js": "/nanashi-jump-ticket/static/js/main.95ef741c.js",
+    "main.js": "/nanashi-jump-ticket/static/js/main.789d8af1.js",
     "static/js/787.2c0d3423.chunk.js": "/nanashi-jump-ticket/static/js/787.2c0d3423.chunk.js",
     "static/media/ticketImage.jpg": "/nanashi-jump-ticket/static/media/ticketImage.cfcfaca07eb82adba8c6.jpg",
     "static/media/pageHeadBar.png": "/nanashi-jump-ticket/static/media/pageHeadBar.5f4bfe0d73af626ae764.png",
@@ -40,11 +40,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/nanashi-jump-ticket/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/nanashi-jump-ticket/index.html",
     "main.a8960303.css.map": "/nanashi-jump-ticket/static/css/main.a8960303.css.map",
-    "main.95ef741c.js.map": "/nanashi-jump-ticket/static/js/main.95ef741c.js.map",
+    "main.789d8af1.js.map": "/nanashi-jump-ticket/static/js/main.789d8af1.js.map",
     "787.2c0d3423.chunk.js.map": "/nanashi-jump-ticket/static/js/787.2c0d3423.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8960303.css",
-    "static/js/main.95ef741c.js"
+    "static/js/main.789d8af1.js"
   ]
 }
