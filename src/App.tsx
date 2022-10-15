@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import QPage from "./component/QPage";
+import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
+import GeneralHeader from "./component/GeneralHeader";
+import { useSelector } from "react-redux";
+import { RootState } from "./redux/rootReducer";
+import { useMemo } from "react";
+import TicketPage from "./component/TicketPage";
+import StartPage from "./component/StartPage";
+
+const qaTheme = createTheme({
+  palette: {
+    mode: "light",
+  },
+});
 
 function App() {
+  const qstate = useSelector((state: RootState) => {
+    return state.qstate.qstate;
+  });
+
+  const start = useMemo(() => qstate.current === -1, [qstate]);
+  const result = useMemo(() => qstate.current === 999, [qstate]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={qaTheme}>
+      <CssBaseline />
+      <GeneralHeader />
+      {start && <StartPage />}
+      {result && <TicketPage />}
+      {!start && !result && <QPage />}
+    </ThemeProvider>
   );
 }
 
